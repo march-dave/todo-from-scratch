@@ -23,7 +23,6 @@ function changeCheckbox(e) {
 function createNewTodo(e) {
     e.preventDefault();
 
-
     var todo = {
       desc: $('#newTodoDesc').val(),
       dueDate: $('#newTodoDueDate').val()
